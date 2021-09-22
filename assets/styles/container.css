@@ -1,0 +1,25 @@
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.terms_container {
+    width: 947px;
+    margin: 0 auto 0 72px;
+}
+
+@media screen and (max-width: 1050px) {
+    .container {
+        width: calc(100% - 80px);
+    }
+    .terms_container {
+        width: calc(100% - 80px);
+        margin: 0 auto 0 20px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        width: calc(100% - 30px);
+    }
+}

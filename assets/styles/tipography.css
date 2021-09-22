@@ -1,0 +1,31 @@
+.title {
+    font-family: MontserratTitle;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.subtitle {
+    font-family: MontserratTitle;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.text {
+    font-family: MontserratText;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+@media screen and (max-width: 1050px) {
+    .title {
+        font-size: 32px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+
+    .text {
+        font-size: 15px;
+    }
+}

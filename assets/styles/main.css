@@ -1,0 +1,22 @@
+body, html, h1, h2, h3, h4, h5, h6, p, div, img, span, a, button {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	overflow-x: hidden;
+}
+
+ul {
+	list-style-position: inside;
+}
+
+a {
+	color: var(--black);
+	text-decoration:none;
+}
